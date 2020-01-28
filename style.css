@@ -19,6 +19,11 @@
     margin-bottom: 0!important;
 }
 
+body .wp-block-button a {
+    font-size: inherit!important;
+}
+
+h3.gform_title,
 .gfield_label {
     color: #fff!important;
 }
