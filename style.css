@@ -1,0 +1,53 @@
+/**
+ * Theme Name: AOV Fonds Kunst en Cultuur
+ * Theme URI: https://aovfondskunstencultuur.nl/
+ * Description: Blocksy Child theme
+ * Author: Johan van der Wijk
+ * Author URI: https://thewebworks.nl
+ * Template: blocksy
+ * Version: 1.0.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: child-theme, blocksy, blue, responsive-layout, accessibility-ready
+ * Text Domain: blocksy
+ */
+
+ .entry-content .alignfull.nomargintop {
+    margin-top: 0!important;
+}
+.entry-content .alignfull.nomarginbottom {
+    margin-bottom: 0!important;
+}
+
+.gfield_label {
+    color: #fff;
+}
+
+.gform_wrapper .gfield_required {
+    color: #009ddf!important;
+}
+
+.gform_wrapper .gfield_error .gfield_label,
+.gform_wrapper .validation_message,
+.gform_wrapper li.gfield_error div.ginput_complex.ginput_container label, .gform_wrapper li.gfield_error ul.gfield_checkbox, .gform_wrapper li.gfield_error ul.gfield_radio {
+    color: #fed766!important;
+}
+
+.gform_wrapper div.validation_error {
+    color: #fed766!important;
+    border-color: #fed766!important;
+}
+
+.gform_wrapper li.gfield.gfield_error {
+    background-color: transparent!important;
+    border: none!important;
+}
+
+.gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    border-color: #fed766!important;
+}
+
+.gform_wrapper.gf_browser_chrome .gfield_checkbox li input, .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio] {
+    margin-top: 0!important;
+    vertical-align: top;
+}
