@@ -20,11 +20,15 @@
 }
 
 .gfield_label {
-    color: #fff;
+    color: #fff!important;
 }
 
 .gform_wrapper .gfield_required {
     color: #009ddf!important;
+}
+
+.gform_wrapper input[type="submit"]:hover {
+    background-color: #009ddf!important;
 }
 
 .gform_wrapper .gfield_error .gfield_label,
