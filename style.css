@@ -23,8 +23,10 @@ body .wp-block-button a {
     font-size: inherit!important;
 }
 
-h3.gform_title,
-.gfield_label {
+#gform_wrapper_1 h3.gform_title,
+#gform_wrapper_1 .gfield_label,
+#gform_wrapper_3 h3.gform_title,
+#gform_wrapper_3 .gfield_label {
     color: #fff!important;
 }
 
