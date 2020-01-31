@@ -25,8 +25,10 @@ body .wp-block-button a {
 
 #gform_wrapper_1 h3.gform_title,
 #gform_wrapper_1 .gfield_label,
+#gform_wrapper_1 .top_label,
 #gform_wrapper_3 h3.gform_title,
-#gform_wrapper_3 .gfield_label {
+#gform_wrapper_3 .gfield_label,
+#gform_wrapper_3 .top_label {
     color: #fff!important;
 }
 
