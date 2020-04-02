@@ -64,3 +64,17 @@ body .wp-block-button a {
     margin-top: 0!important;
     vertical-align: top;
 }
+
+.wp-block-table.is-style-stripes th {
+    background-color: var(--buttonInitialColor);
+    color: var(--buttonTextInitialColor);
+}
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+    background-color: #DFCCCF;
+}
+.wp-block-table.is-style-stripes tbody tr:nth-child(even) {
+    background-color: #F0E8E9;
+}
+.wp-block-table.is-style-stripes td, .wp-block-table.is-style-stripes th {
+    border-color: var(--buttonTextInitialColor);
+}
