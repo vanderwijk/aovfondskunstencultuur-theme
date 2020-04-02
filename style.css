@@ -69,11 +69,8 @@ body .wp-block-button a {
     background-color: var(--buttonInitialColor);
     color: var(--buttonTextInitialColor);
 }
-.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-    background-color: #c0e5f5;
-}
 .wp-block-table.is-style-stripes tbody tr:nth-child(even) {
-    background-color: #7ccbed;
+    background-color: #eaf4f9;
 }
 .wp-block-table.is-style-stripes td, .wp-block-table.is-style-stripes th {
     border-color: var(--buttonTextInitialColor);
