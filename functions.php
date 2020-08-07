@@ -12,3 +12,17 @@ function afkc_enqueue_styles() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'afkc_enqueue_styles' );
+
+function afkc_analytics() { ?>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174905385-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-174905385-1');
+	</script>
+
+<?php }
+add_action( 'wp_head','afkc_analytics', 20 );
